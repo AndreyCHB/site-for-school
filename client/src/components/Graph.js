@@ -6,10 +6,10 @@ export const Graph = () => {
         <div>
             <Line
                 data={{
-                    labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май'],
+                    labels: ['Ноябрь', 'Декабрь', 'Январь', 'Февраль', 'Март'],
                     datasets: [
                         {
-                            data: [12, 19, 3, 5, 2, 3],
+                            data: [54, 53, 56, 59, 60],
                             fill: 'false',
                             label: 'Вес',
                             backgroundColor: ['red'],

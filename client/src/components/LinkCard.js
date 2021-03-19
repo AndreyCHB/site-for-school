@@ -1,5 +1,4 @@
 import React from 'react'
-import {LinksPage} from "../pages/LinksPage";
 
 export const LinkCard = ({ link }) => {
     return (
@@ -7,7 +6,7 @@ export const LinkCard = ({ link }) => {
             <h2>Вес сегодня</h2>
             <p>Вес: <a>{link.from}</a></p>
             <p>Дата создания: <strong>{new Date(link.date).toLocaleDateString()}</strong></p>
-            <button className="btn yellow darken-4" style={{marginRight: 10}} disabled={loading} onClick={LinksPage}>Статистика</button>
+            <button onClick="location.href = 'https://site-for-school1.herokuapp.com/links'">Кнопка-ссылка</button>
         </>
     )
 }

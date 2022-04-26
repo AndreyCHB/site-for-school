@@ -2,7 +2,7 @@ import React from 'react'
 
 export const LinksList = ({ links }) => {
     if (!links.length) {
-        return <p className="center"> </p>
+        return <p className="center">  </p>
     }
 
     return (
